@@ -4,17 +4,14 @@
 echo "***Starting...***"
 echo "***Cloning repo...***"
 
-git clone https://github.com/thevalueadder/lovelace
+git clone https://github.com/WatsonHackBio/watson/tree/main/Script
 cd lovelace
 
 echo "***Mixing personal info...***"
-echo "Name,email,slack_username,biostack,twitter_handle,hamming_distance">>team_lovelace.csv
-node stage_0_JuanmaGarcia.js >>team_lovelace.csv
-node stage_0_ToheebAmoo.js >>team_lovelace.csv
-node stage_0_oluwadamife.js >>team_lovelace.csv
-node stage_0_SalmaElShafie.js >>team_lovelace.csv
-python stage_0_EstherOpone.py >>team_lovelace.csv
-python stage_0_SamAdeneye.py >>team_lovelace.csv
-python stage_0_ukaegbuDaniel.py >>team_lovelace.csv
+echo "Name,email,slack_username,biostack,twitter_handle,hamming_distance">>team_watson.csv
+node atif-hackbio.php >>team_watson.csv
+node hackbio.py >>team_watson.csv
+node stage_0_prem_py.py >>team_watson.csv
+node stage_0_yissa.py >>team_watson.csv
 
 echo "***CSV generated!***"
