@@ -5,7 +5,7 @@ echo "***Starting...***"
 echo "***Cloning repo...***"
 
 git clone https://github.com/WatsonHackBio/watson/tree/main/Script
-cd lovelace
+cd watson
 
 echo "***Mixing personal info...***"
 echo "Name,email,slack_username,biostack,twitter_handle,hamming_distance">>team_watson.csv
